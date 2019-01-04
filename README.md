@@ -9,11 +9,11 @@ The [example workflow](.github/main.workflow) will trigger on every push to this
 For pushes to a _feature_ branch, the workflow will:
 
 1. Trigger a new deployment using the `now` cli
-1. Setup a unique alias for that deployment, based on the SHA of the most recent commit on the Git ref that was pushed
+1. Set up a unique alias for that deployment, based on the SHA of the most recent commit on the Git ref that was pushed
 
 For pushes to the _default_ branch (`master`), in addition to the above Actions, the workflow will:
 
-1. Setup a global alias, based on [the `now.json` configuration](site/now.json)
+1. Set up a global alias, based on [the `now.json` configuration](site/now.json)
 
 ## License
 
